@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+    <title>Farm Weather Forecast</title>
+    <script>window.addEventListener('load', () => {
+    // Replace 'YOUR_API_KEY' with the actual API key from OpenWeatherMap.
+    const apiKey = 'YOUR_API_KEY';
+    
+    // Replace 'YOUR_CITY' and 'YOUR_COUNTRY_CODE' with the desired location.
+    const city = 'YOUR_CITY';
+    const countryCode = 'YOUR_COUNTRY_CODE';
+    
+    const weatherInfo = document.getElementById('weather-info');
+    
+    // Fetch weather data from OpenWeatherMap API.
+    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city},${countryCode}&appid=${apiKey}`)
+        .then(response => response.json())
+        .then(data => {
+            const temperature = (data.main.temp - 273.15).toFixed(2); // Convert to Celsius.
+            const description = data.weather[0].description;
+            
+            // Display weather information.
+            weatherInfo.innerHTML = `
+                <h2>Weather Information</h2>
+                <p>Temperature: ${temperature}°C</p>
+                <p>Conditions: ${description}</p>
+            `;
+        })
+        .catch(error => {
+            console.error('Error fetching weather data:', error);
+            weatherInfo.innerHTML = '<p>Failed to fetch weather data.</p>';
+        });
+});
+</script>
+
+<body>
+    <h1>Farm Weather Forecast</h1>
+    
+    <div id="weather-info">
+        <h2>Weather Information</h2>
+        <p>Loading...</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

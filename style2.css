@@ -1,0 +1,250 @@
+.home_container{
+    background-image: url("image/h.jpg");
+     
+    object-fit: cover;
+    
+    width: 100%;
+    height: auto;
+    background-color:white;
+}
+.f_container{
+ 
+  
+  object-fit: cover;
+  
+  width: 100%;
+  height: auto;
+  background-color:white;
+}
+
+
+.header {
+    overflow: hidden;
+    background-color: #7ba48a;
+    padding: 20px 10px;
+  }
+  
+  .header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  
+  .header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  
+  
+  .header a.active {
+    background-color: dodgerblue;
+    color: white;
+  }
+  
+  .header-right {
+    float: right;
+  }
+  
+  .text{
+    font-size: 25px;
+        font-weight: bold;
+        text-align: center;
+        margin-top:5%;
+
+
+  }
+
+  .row{
+    
+      width: 100%;
+      display: flex;
+      margin-bottom: 20px;
+    
+  }
+  .colounm1{
+    width: 14.5%;
+  padding: 10px;
+  height: auto;
+  margin-top: 2%;
+  background-color: #abe8ca;
+  border-radius: 10px;
+  color: rgb(19, 19, 19);
+  text-align: center;
+  margin-left: 2%;
+  text-align: justify;
+  text-justify: inter-word;
+  }
+  .colounm2{
+    display: flex;
+    width: 13.5%;
+  padding: 10px;
+  height: auto;
+  margin-top: 2%;
+  
+  background-color: #abe8ca;
+  border-radius: 10px;
+  color: rgb(19, 19, 19);
+  text-align: center;
+  margin-left: 5%;
+  text-align: justify;
+  text-justify: inter-word;
+
+  }
+  .colounm3{
+    display: flex;
+    width: 14%;
+  padding: 10px;
+  height: auto;
+  margin-top: 2%;
+  
+  background-color: #abe8ca;
+  border-radius: 10px;
+  color: rgb(19, 19, 19);
+  text-align: center;
+  margin-left: 5%;
+  text-align: justify;
+  text-justify: inter-word;
+
+  }
+  .colounm4{
+    display: flex;
+    width: 13%;
+  padding: 10px;
+  height: auto;
+  margin-top: 2%;
+  
+  background-color: #abe8ca;
+  border-radius: 10px;
+  color: rgb(19, 19, 19);
+  text-align: center;
+  margin-left: 5%;
+  text-align: justify;
+  text-justify: inter-word;
+
+  }
+  .colounm5{
+    display: flex;
+    width: 14%;
+  padding: 10px;
+  height: auto;
+  margin-top: 2%;
+  
+  background-color: #abe8ca;
+  border-radius: 10px;
+  color: rgb(19, 19, 19);
+  text-align: center;
+  margin-left: 5%;
+  text-align: justify;
+  text-justify: inter-word;
+
+  }
+  .colounm6{
+    display: flex;
+    width: 15%;
+  padding: 10px;
+  height: auto;
+  margin-top: 2%;
+  
+  background-color: #abe8ca;
+  border-radius: 10px;
+  color: rgb(19, 19, 19);
+  text-align: center;
+  margin-left: 5%;
+  text-align: justify;
+  text-justify: inter-word;
+
+  }
+  .colounm7{
+    display: flex;
+    width: 14%;
+  padding: 10px;
+  height: auto;
+  margin-top: 2%;
+  
+  background-color: #abe8ca;
+  border-radius: 10px;
+  color: rgb(19, 19, 19);
+  text-align: center;
+  margin-left: 5%;
+  text-align: justify;
+  text-justify: inter-word;
+
+  }
+  .colounm8{
+    display: flex;
+    width: 14%;
+  padding: 10px;
+  height: auto;
+  margin-top: 2%;
+  
+  background-color: #abe8ca;
+  border-radius: 10px;
+  color: rgb(19, 19, 19);
+  text-align: center;
+  margin-left: 5%;
+  text-align: justify;
+  text-justify: inter-word;
+
+  }
+  
+ .rabi_container {
+  
+  
+  object-fit: cover;
+  
+  width: 100%;
+  height: auto;
+  background-color:white;
+}
+  table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.site-footer {
+  background-color: #333;
+  color: white;
+  padding: 30px 0;
+  width: 100%;
+
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-section {
+  flex: 1;
+  margin: 10px;
+}
+
+.footer-section h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 20px;
+  border-top: 1px solid #555;
+}
